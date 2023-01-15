@@ -1,0 +1,10 @@
+Options -indexes
+RewriteEngine On
+RewriteBase /
+
+
+RewriteRule ^hakkimizda$ index.php?page=hakkimizda [L,NC]
+RewriteRule ^hizmetlerimiz$ index.php?page=hizmetlerimiz [L,NC]
+RewriteRule ^iletisim$ index.php?page=iletisim [L,NC]
+RewriteRule ^misyonumuz$ index.php?page=misyonumuz [L,NC]
+RewriteRule ^vizyonumuz$ index.php?page=vizyonumuz [L,NC]
